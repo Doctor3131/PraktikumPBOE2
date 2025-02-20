@@ -106,5 +106,9 @@ public class Titik {
     Titik getRefleksiY() {
         return new Titik(absis*-1, ordinat);
     }
+
+    String getTitikStr() { 
+        return "( " + getAbsis() + "," + getOrdinat() + " )";
+    }
 }
 

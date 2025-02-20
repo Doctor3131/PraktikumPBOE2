@@ -109,6 +109,5 @@ public class MTitik {
         System.out.print("refleksi sumbu y  dengan fungsi get, titik: (" + Kuadran4.getAbsis() + "," + Kuadran4.getOrdinat() + ") = " );
         Kuadran4.getRefleksiY().printTitik();
         System.out.println("");
-
     }
 }
