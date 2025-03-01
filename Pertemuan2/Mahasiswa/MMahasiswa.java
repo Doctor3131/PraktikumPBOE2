@@ -1,5 +1,13 @@
 package Mahasiswa;
 
+/*
+* Nama File    : MAIN FILE MAHASISWA
+* Deskripsi    : merupakan main file
+* Pembuat      : Siriel Wafa Nuriel Fahri
+* Tanggal      : 1 Maret 2025
+*/
+
+
 public class MMahasiswa {
     public static void main(String[] args) {
         // Membuat objek MataKuliah
