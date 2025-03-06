@@ -26,8 +26,13 @@ public class AngkaSial {
         } 
     }
 }
-/*iya baris 'System.out.println(angka + " bukan angka sial");' ter eksekusi
- *untuk cobaAngka(10) 
- * 
- */
- 
+
+/*
+Baris 12 tidak dieksekusi ketika eksepsi terjadi
+hal ini dikarenakan ketika angka == 13, langusung throw new AngkaSialException()
+*/ 
+
+/*
+Baris 21 dieksekusi pada cobaAngka(13) karena kena throw pada kondisional angka == 13
+lalu di catch oleh baris 21
+*/ 
