@@ -33,17 +33,17 @@ public class Persegi extends BangunDatar {
         return sisi * Math.sqrt(2);
     }
 
-    // @Override
-    // public void printInfo() {
-    //     System.out.println("Jumlah sisi: " + getJmlSisi());
-    //     System.out.println("Warna: " + getWarna());
-    //     System.out.println("Border: " + getBorder());
-    //     System.out.println("Sisi: " + sisi);
-    // }
-
     @Override
     public void printInfo() {
-        super.printInfo();
+        System.out.println("Jumlah sisi: " + getJmlSisi());
+        System.out.println("Warna: " + getWarna());
+        System.out.println("Border: " + getBorder());
         System.out.println("Sisi: " + sisi);
     }
+
+    // @Override
+    // public void printInfo() {
+    //     super.printInfo();
+    //     System.out.println("Sisi: " + sisi);
+    // }
 }
