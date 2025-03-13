@@ -40,7 +40,7 @@ public class BangunDatar {
         this.border = border;
     }
 
-    public void printInfo() {
+    public final void printInfo() {
         System.out.println("Jumlah sisi: " + jmlSisi);
         System.out.println("Warna: " + warna);
         System.out.println("Border: " + border);
