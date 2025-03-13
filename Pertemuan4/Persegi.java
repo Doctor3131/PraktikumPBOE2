@@ -25,6 +25,14 @@ public class Persegi extends BangunDatar {
         this.sisi = sisi;
     }
 
+    public double getLuas() {
+        return 4 * sisi;
+    }
+
+    public double getDiagonal() {
+        return sisi * Math.sqrt(2);
+    }
+
     // @Override
     // public void printInfo() {
     //     System.out.println("Jumlah sisi: " + getJmlSisi());
