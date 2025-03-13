@@ -9,6 +9,9 @@ public class mainP4 {
         // Membuat objek persegi
         Persegi p = new Persegi(6, "Hijau", "kuning");
 
+        // Membuat objek lingkaran
+        Lingkaran l = new Lingkaran(14, "merah", "putih");
+
         System.out.println("");
         System.out.println("Info Bangun Datar");
         bd.printInfo();
@@ -16,5 +19,9 @@ public class mainP4 {
         System.out.println("");
         System.out.println("Info Persegi");
         p.printInfo();
+
+        System.out.println("");
+        System.out.println("Info Lingkaran");
+        l.printInfo();
     }
 }

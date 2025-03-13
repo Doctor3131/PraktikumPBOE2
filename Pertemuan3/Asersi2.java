@@ -5,10 +5,10 @@
 * Tanggal      : 6 Maret 2025
 */
 
-class Lingkaran {
+class LingkaranAsersi {
     private double jariJari;
 
-    public Lingkaran(double jariJari) {
+    public LingkaranAsersi(double jariJari) {
         this.jariJari = jariJari;
     }
 
@@ -23,7 +23,7 @@ public class Asersi2 {
         double jariJari = -2;
         assert(jariJari > 0):"jari jari tidak boleh nol!!!"; 
         // asersi kurang tepat karena dia mencek jari2 jangan negatif bukan jangan nol
-        Lingkaran I = new Lingkaran(jariJari);
+        LingkaranAsersi I = new LingkaranAsersi(jariJari);
         double kelilingLingkaran = I.hitungKeliling();
         System.out.println("keliling lingkaran = " + kelilingLingkaran);
     }
