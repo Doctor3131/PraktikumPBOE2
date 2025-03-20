@@ -1,3 +1,9 @@
+/*
+* Nama File    : BangunDatar.java
+* Pembuat      : Siriel Wafa Nuriel Fahri
+* Tanggal      : 13 Maret 2025
+*/
+
 public class BangunDatar {
     private int jmlSisi;
     private String warna;

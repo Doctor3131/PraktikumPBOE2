@@ -1,3 +1,9 @@
+/*
+* Nama File    : Persegi.java
+* Pembuat      : Siriel Wafa Nuriel Fahri
+* Tanggal      : 13 Maret 2025
+*/
+
 public class Persegi extends BangunDatar {
     private double sisi;
 

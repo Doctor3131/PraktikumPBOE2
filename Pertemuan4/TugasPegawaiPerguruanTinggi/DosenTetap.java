@@ -1,3 +1,10 @@
+/*
+* Nama File    : DosenTetap.java
+* Pembuat      : Siriel Wafa Nuriel Fahri
+* Tanggal      : 14 Maret 2025
+*/
+
+
 import java.util.Calendar;
 import java.util.Date;
 

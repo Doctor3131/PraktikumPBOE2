@@ -1,3 +1,9 @@
+/*
+* Nama File    : DosenTamu.java
+* Pembuat      : Siriel Wafa Nuriel Fahri
+* Tanggal      : 14 Maret 2025
+*/
+
 import java.util.Date;
 
 class DosenTamu extends Pegawai {

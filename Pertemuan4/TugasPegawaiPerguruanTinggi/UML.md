@@ -57,16 +57,9 @@ classDiagram
         +double hitungTunjangan()
         +void printInfo()
     }
-    
-    class Main {
-        +main(String[] args)
-    }
-    
+
     Pegawai <|-- Dosen : inheritance
     Pegawai <|-- TenagaKependidikan : inheritance
     Dosen <|-- DosenTetap : inheritance
     Dosen <|-- DosenTamu : inheritance
-    Main ..> DosenTetap : creates
-    Main ..> DosenTamu : creates
-    Main ..> TenagaKependidikan : creates
 ```

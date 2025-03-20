@@ -1,3 +1,9 @@
+/*
+* Nama File    : mainP4.java
+* Pembuat      : Siriel Wafa Nuriel Fahri
+* Tanggal      : 13 Maret 2025
+*/
+
 public class mainP4 {
     public static void main(String[] args) {
         // Membuat objek bangun datar
