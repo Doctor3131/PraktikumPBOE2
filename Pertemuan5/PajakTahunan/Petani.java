@@ -1,3 +1,10 @@
+/*
+ * Nama File    : Petani.java
+ * Pembuat      : Siriel Wafa Nuriel Fahri
+ * Tanggal      : 22 Februari 2025
+ */
+
+
 package Pertemuan5.PajakTahunan;
 import java.util.Date;
 
