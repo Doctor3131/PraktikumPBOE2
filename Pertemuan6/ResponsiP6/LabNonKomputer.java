@@ -16,7 +16,7 @@ class LaboratoriumNonKomputer extends Ruang implements Laboratorium {
     }
     
     @Override
-    public double cekTarifBiayaKebersihan(double tarif) {
+    public double get(double tarif) {
         return getPanjang() * getLebar() * tarifKebersihan;
     }
     

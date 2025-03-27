@@ -2,24 +2,46 @@ package Pertemuan6.ResponsiP6;
 
 public class Main {
     public static void main(String[] args) {
-        // Membuat laboratorium komputer
-        LabKomputer labKomputer = new LabKomputer(
-            "LAB-KOM-01", 10, 8, 3.5, 30, "Lab Komputer Utama", 500000, 25
+        RuangDepartemen departemenInformatika = new RuangDepartemen(
+            "DEPT-INF-01", 15, 10, 4.5, 50, 10, 20, 5, 
+            "Departemen Informatika", "Dr. Budi Santoso", 8000
         );
         
-        // Membuat laboratorium non-komputer
-        LaboratoriumNonKomputer labBiologi = new LaboratoriumNonKomputer(
-            "LAB-BIO-01", 12, 9, 4, 25, "Lab Biologi Pusat", 750000, 
-            "Biologi", new String[]{"Biologi Umum", "Mikrobiologi"}
+        RuangDepartemen departemenSistem = new RuangDepartemen(
+            "DEPT-SIS-01", 12, 8, 4, 40, 8, 15, 4, 
+            "Departemen Sistem Informasi", "Dr. Sri Wahyuni", 7500
         );
         
-        // Menampilkan informasi
-        System.out.println("=== Informasi Laboratorium Komputer ===");
-        labKomputer.printInfo();
-        System.out.println("Biaya Kebersihan: Rp " + labKomputer.cekTarifBiayaKebersihan(0));
+        // Membuat ruang dosen dengan tarif kebersihan berbeda
+        RuangDosen ruangDosenInformatika = new RuangDosen(
+            "DOS-INF-01", 5, 4, 3, 2, 
+            "Dr. Ahmad Zaki", 2, 1, "Departemen Informatika", 6500
+        );
         
-        System.out.println("\n=== Informasi Laboratorium Biologi ===");
-        labBiologi.printInfo();
-        System.out.println("Biaya Kebersihan: Rp " + labBiologi.cekTarifBiayaKebersihan(0));
+        RuangDosen ruangDosenSistem = new RuangDosen(
+            "DOS-SIS-01", 4, 3, 2.5, 1, 
+            "Dr. Eko Nugroho", 1, 1, "Departemen Sistem Informasi", 6200
+        );
+        
+        System.out.println("=== Informasi Ruang Departemen Informatika ===");
+        departemenInformatika.printInfo();
+        System.out.println("Biaya Kebersihan: Rp " + departemenInformatika.hitungBiayaKebersihan());
+        
+        System.out.println("\n=== Informasi Ruang Departemen Sistem Informasi ===");
+        departemenSistem.printInfo();
+        System.out.println("Biaya Kebersihan: Rp " + departemenSistem.hitungBiayaKebersihan());
+        
+        System.out.println("\n=== Informasi Ruang Dosen Informatika ===");
+        ruangDosenInformatika.printInfo();
+        System.out.println("Biaya Kebersihan: Rp " + ruangDosenInformatika.hitungBiayaKebersihan());
+        
+        System.out.println("\n=== Informasi Ruang Dosen Sistem Informasi ===");
+        ruangDosenSistem.printInfo();
+        System.out.println("Biaya Kebersihan: Rp " + ruangDosenSistem.hitungBiayaKebersihan());
+        
+        // Demonstrasi perubahan tarif
+        System.out.println("\n=== Perubahan Tarif ===");
+        departemenInformatika.setTarifBiayaKebersihan(9000);
+        System.out.println("Tarif Baru Departemen Informatika: Rp " + departemenInformatika.getTarifBiayaKebersihan());
     }
 }

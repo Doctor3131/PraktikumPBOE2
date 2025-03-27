@@ -1,6 +1,6 @@
 package Pertemuan6.ResponsiP6;
 
-abstract class Ruang {
+abstract class Ruang implements TarifKebersihan {
     protected String kode;
     protected double tinggi;
     protected double lebar;
@@ -57,9 +57,7 @@ abstract class Ruang {
 
     public void setKapasitas(int kapasitas) {
         this.kapasitas = kapasitas;
-    }
-
-    public abstract double cekTarifBiayaKebersihan(double tarif); 
+    } 
 
     public void printInfo() {
         System.out.println("Kode Ruang: " + kode);
@@ -67,5 +65,10 @@ abstract class Ruang {
         System.out.println("Lebar: " + lebar + " m");
         System.out.println("Panjang: " + panjang + " m");
         System.out.println("kapasitas: " + kapasitas + " orang");
+    }
+
+    @Override
+    public double hitungBiayaKebersihan() {
+        return getPanjang() * getLebar() * getTarifDefaultKebersihan();
     }
 }

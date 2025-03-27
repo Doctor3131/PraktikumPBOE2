@@ -3,7 +3,6 @@ package Pertemuan6.ResponsiP6;
 public class RuangKelas extends Ruang {
     protected int jumlahKursiTersedia;
     protected int jumlahKursiRusak;
-    protected static final double tarifKebersihan = 5000; 
     
     public RuangKelas(String kode, double panjang, double lebar, double tinggi, int kapasitas, int kursiTersedia, int kursiRusak) {
         super(kode, tinggi, lebar, panjang, kapasitas);
@@ -12,8 +11,8 @@ public class RuangKelas extends Ruang {
     }
     
     @Override
-    public double cekTarifBiayaKebersihan(double tarif) {
-        return getPanjang() * getLebar() * tarifKebersihan;
+    public double getTarifDefaultKebersihan() {
+        return TARIF_RUANG_KELAS;
     }
     
     @Override
