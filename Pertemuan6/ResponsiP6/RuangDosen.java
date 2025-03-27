@@ -1,3 +1,8 @@
+/*
+* Nama File    : RuangDosen.java
+* Pembuat      : Siriel Wafa Nuriel Fahri
+* Tanggal      : 27 Maret 2025
+*/
 package Pertemuan6.ResponsiP6;
 
 public class RuangDosen extends Ruang implements Departemen {

@@ -1,3 +1,8 @@
+/*
+* Nama File    : LabNonKomputer.java
+* Pembuat      : Siriel Wafa Nuriel Fahri
+* Tanggal      : 27 Maret 2025
+*/
 package Pertemuan6.ResponsiP6;
 
 class LaboratoriumNonKomputer extends Ruang implements Laboratorium {
@@ -16,7 +21,7 @@ class LaboratoriumNonKomputer extends Ruang implements Laboratorium {
     }
     
     @Override
-    public double get(double tarif) {
+    public double getTarifDefaultKebersihan() {
         return getPanjang() * getLebar() * tarifKebersihan;
     }
     

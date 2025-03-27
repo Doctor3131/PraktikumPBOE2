@@ -1,3 +1,8 @@
+/*
+* Nama File    : LabKomputer.java
+* Pembuat      : Siriel Wafa Nuriel Fahri
+* Tanggal      : 27 Maret 2025
+*/
 package Pertemuan6.ResponsiP6;
 
 class LabKomputer extends Ruang implements Laboratorium {
@@ -14,7 +19,7 @@ class LabKomputer extends Ruang implements Laboratorium {
     }
     
     @Override
-    public double cekTarifBiayaKebersihan(double tarif) {
+    public double getTarifDefaultKebersihan() {
         return getPanjang() * getLebar() * tarifKebersihan;
     }
     

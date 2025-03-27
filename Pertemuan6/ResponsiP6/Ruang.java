@@ -1,3 +1,8 @@
+/*
+* Nama File    : Ruang.java
+* Pembuat      : Siriel Wafa Nuriel Fahri
+* Tanggal      : 27 Maret 2025
+*/
 package Pertemuan6.ResponsiP6;
 
 abstract class Ruang implements TarifKebersihan {
