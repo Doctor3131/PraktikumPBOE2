@@ -33,8 +33,8 @@ public class Datum<T> {
         if (isi != null) {
             System.out.println("Isi Datum: " + isi);
             
-            if (isi instanceof Pertemuan6.HewanPeliharaan.Anabul) {
-                Pertemuan6.HewanPeliharaan.Anabul anabul = (Pertemuan6.HewanPeliharaan.Anabul) isi;
+            if (isi instanceof Pertemuan7.TugasGeneric.Anabul) {
+                Pertemuan7.TugasGeneric.Anabul anabul = (Pertemuan7.TugasGeneric.Anabul) isi;
                 System.out.println("Nama Anabul: " + anabul.getNama());
                 System.out.print("Suara: ");
                 anabul.bersuara();

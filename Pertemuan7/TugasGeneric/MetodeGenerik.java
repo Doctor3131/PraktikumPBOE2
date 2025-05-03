@@ -21,7 +21,7 @@ public class MetodeGenerik {
         datum.setIsi(nilaiBaru);
     }
     
-    public <T extends Pertemuan6.HewanPeliharaan.Anabul> void simulasiAnabul(Datum<T> datum) {
+    public <T extends Pertemuan7.TugasGeneric.Anabul> void simulasiAnabul(Datum<T> datum) {
         T anabul = datum.getIsi();
         if (anabul != null) {
             System.out.println("\n--- Simulasi " + anabul.getClass().getSimpleName() + " ---");
