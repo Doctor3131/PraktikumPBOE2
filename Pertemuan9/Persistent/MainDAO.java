@@ -2,7 +2,7 @@ package Pertemuan9.Persistent;
 
 public class MainDAO {
     public static void main(String args[]) {
-        Person person = new Person("indra");
+        Person person = new Person("Fahri");
         DAOManager m = new DAOManager();
         m.setPersonDAO(new MySQLPersonDAO());
         try {
