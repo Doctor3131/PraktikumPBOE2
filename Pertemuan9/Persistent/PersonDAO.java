@@ -1,6 +1,6 @@
 /*
 * Nama File    : PersonDAO.java
-* Deskripsi    : 
+* Deskripsi    : File PersonDAO
 * Pembuat      : Siriel Wafa Nuriel Fahri
 * Tanggal      : 
 */

@@ -1,3 +1,11 @@
+/*
+* Nama File    : MainDAO.java
+* Deskripsi    : file MainDAO
+* Pembuat      : Siriel Wafa Nuriel Fahri
+* Tanggal      : 16 Mei 2025
+*/
+
+
 package Pertemuan9.Persistent;
 
 public class MainDAO {

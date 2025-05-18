@@ -1,3 +1,11 @@
+/*
+* Nama File    : Person.java
+* Deskripsi    : file Person
+* Pembuat      : Siriel Wafa Nuriel Fahri
+* Tanggal      : 16 Mei 2025
+*/
+
+
 package Pertemuan9.Persistent;
 
 public class Person {
